@@ -155,3 +155,15 @@ body {
     }
 
 }
+
+.technology-impact li{
+    text-align: left;
+    padding-bottom: 10px;
+    color: #648b77;
+}
+
+.content-box h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
