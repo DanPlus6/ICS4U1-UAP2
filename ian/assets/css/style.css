@@ -14,6 +14,21 @@ body {
     border-style: solid;
 }
 
+.home-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25%;
+    border-radius:50%;
+    border-color: rgb(6, 15, 66);
+    border-style: solid;
+    transition-duration: 0.4s;
+}
+
+.home-container:hover{
+    background-color:rgb(6, 15, 66);
+}
+
 iframe {
     border-radius: 25px;
 }
