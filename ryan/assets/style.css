@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-color: #f4fbf6;
     color: #173321;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: "Segoe UI", Montserrat, sans-serif;
 }
 
 .content-wrapper {
@@ -35,7 +35,6 @@ body {
     color: #143d20;
     font-size: clamp(36px, 5vw, 58px);
     font-weight: 750;
-    letter-spacing: -1.5px;
     line-height: 1.1;
 }
 
@@ -157,8 +156,10 @@ body {
 }
 
 .technology-impact li{
+    font: Montserrat, sans-serif;
     text-align: left;
     padding-bottom: 10px;
+    font-size: 15px;
     color: #648b77;
 }
 
