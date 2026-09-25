@@ -170,3 +170,40 @@ body {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+/* david wanna be special 😭🥀 */
+.david-site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 12px max(24px, calc((100vw - 1150px) / 2));
+    background: #ffffff;
+    border-bottom: 1px solid #e2f0e3;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.david-site-nav label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #173321;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.david-site-nav select {
+    min-width: 180px;
+    padding: 9px 32px 9px 12px;
+    border: 1px solid #cbdccf;
+    border-radius: 4px;
+    background: #f8fbf8;
+    color: #173321;
+    font: inherit;
+    cursor: pointer;
+}
+
