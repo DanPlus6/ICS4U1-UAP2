@@ -5,27 +5,35 @@
 
 body {
     margin: 0;
+
     background-color: #f4fbf6;
     color: #173321;
-    font-family: "Segoe UI", Montserrat, sans-serif;
 }
 
-.home-button {
-    position: fixed;
-    left: 2px;
-    bottom: 2px;
+.home-btn { 
+    position: fixed; 
+    z-index: 9999;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid; 
+    align-items: center; 
+    left: 20px; 
+    bottom: 20px; 
+    width: 52px; 
+    height: 52px; 
 
-    scale: 0.2;
+    border-radius: 50%; 
 
-    border-radius: 50%;
-    background-color: transparent;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer; 
+    transition: transform .2s ease; 
+} 
 
-    transition: all 0.3s ease;
+.home-btn img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.home-btn:hover {
+    transform: translateY(-2px); 
 }
 
 /* content */
@@ -42,7 +50,6 @@ body {
 }
 
 .webpage-heading {
-    font: Montserrat, sans-serif;
     display: inline-block;
     margin-bottom: 16px;
     color: #0c572e;
@@ -144,7 +151,6 @@ body {
 }
 
 .technology-impact li{
-    font: Montserrat, sans-serif;
     text-align: left;
     padding-bottom: 10px;
     font-size: 15px;
@@ -177,23 +183,6 @@ body {
 
 .back-link:hover {
     background-color: #0a441a;
-    transform: translateY(-2px);
+    
 }
 
-::-webkit-scrollbar {
-    width: 14px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: #f4f7fb;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #53f18d;
-    border-radius: 4px;
-    border: 3px solid #f4f7fb;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #15803d;
-}
