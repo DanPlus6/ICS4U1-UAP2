@@ -43,6 +43,8 @@ body {
     padding: 70px 24px;
 }
 
+
+/* ryan and haobin want to be special ❤️😭 */
 .page-header {
     max-width: 800px;
     margin: 0 auto 55px;
@@ -150,39 +152,15 @@ body {
     text-align: left;
 }
 
-.technology-impact li{
+.technology-impact li {
     text-align: left;
     padding-bottom: 10px;
     font-size: 15px;
     color: #648b77;
 }
 
-.content-box h5{
+.content-box h5 {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-
-.back-link {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 12px 22px;
-
-    background-color: #0c541f;
-    color: #ffffff;
-
-    border: 1px solid #0c541f;
-    border-radius: 4px;
-
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-
-    transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.back-link:hover {
-    background-color: #0a441a;
-    
-}
-
